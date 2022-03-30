@@ -8,4 +8,4 @@ for i in range(2, N+1):
         elif j==9: d[i][9] = d[i-1][8]
         else:
             d[i][j] = d[i-1][j-1] + d[i-1][j+1]
-print(sum(d[N]))
+print(sum(d[N])%1000000000)
