@@ -1,5 +1,4 @@
 import sys
-
 input = sys.stdin.readline
 
 n = int(input())
@@ -7,8 +6,6 @@ dp = [[0] * 3 for _ in range(n)]
 cost = []
 for i in range(n):
     cost.append(list(map(int, input().split())))
-print(dp)
-print(cost)
 
 m = float('inf')
 for j in range(3):
