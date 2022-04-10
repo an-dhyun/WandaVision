@@ -16,7 +16,6 @@ else:
                 check = False # 금지된 숫자가 있을경우 pass하도록!
         if (check == True) & (abs(N-i)+len(str(i)) < answer):
             answer = abs(N-i)+len(str(i)) # 기준숫자 길이 + 이동 횟수
-            print(i, answer)
     print(answer)
 
 
