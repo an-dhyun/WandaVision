@@ -7,4 +7,5 @@
   * From ```day 16``` : 1 Day 1 BOJ 챌린지
   
 ## 📑 References
+  * Now we're on https://code.plus/course/42
   * List, Dict, Set 시간 복잡도 정리 사이트 : https://2dowon.netlify.app/python/data-type-big-o/
