@@ -1,4 +1,8 @@
 # WandaVision
+## Member
+[![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=fight0309)](https://solved.ac/fight0309)
+[![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=jihyeon428)](https://solved.ac/jihyeon428)
+
 ## 🖥 Language 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
