@@ -44,7 +44,7 @@ for _ in range(M):
     arr[b].append(a)
 
 def dfs(idx, number):
-    # if sum(visited) == 5: -> 시간초과남
+    # if sum(visited) == 5: -> 시간초과남!
     if number == 4:
         print(1)
         exit()
