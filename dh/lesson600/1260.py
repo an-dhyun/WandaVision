@@ -23,7 +23,7 @@ print()
 # bfs
 def bfs(graph, start, visited):
     queue = deque([start])
-    visited[start] = True
+    visited[start] = True # 탐색 시작 노드를 큐에 삽입하고 방문 처리
     while queue:
         v = queue.popleft()
         print(v, end=' ')
