@@ -1,6 +1,6 @@
 import sys
-sys.setrecursionlimit(10000)
-# 최대 재귀 횟수 제한 제거
+sys.setrecursionlimit(10000) # 최대 재귀 횟수 제한 제거
+input = sys.stdin.readline
 
 def dfs(v):
     visited[v] = 1
