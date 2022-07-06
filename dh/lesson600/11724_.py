@@ -49,7 +49,7 @@ for _ in range(M):
 visited = [False] * (N+1)
 count = 0
 for i in range(1, N+1):
-    if not visited[i]:
+    if not visited[i]: # <--- 이걸 해줘야함
         if not graph[i]: # 연결된게 없으면
             count += 1
         else:
