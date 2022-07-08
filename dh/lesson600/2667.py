@@ -24,13 +24,13 @@ for _ in range(N):
     lst = list(map(int, list(sys.stdin.readline().rstrip())))
     graph.append(lst)
 
-visited = [[False] * N for _ in range(N)]
+visited = [[False] * N for _ in range(N)] # 둘다 곱하기 해버리면 모든 행이 서로 복사됨 ㅠㅠ
 counts = []
 for i in range(N):
     for j in range(N):
         # 집이 있고 방문하지 않은 경우에만
         if (graph[i][j]==1) and (not visited[i][j]): 
-            count = 1
+            count = 1 # 하나만 동떨어진 경우도 단지이다!
             dfs(i, j)
             counts.append(count)
 
