@@ -10,7 +10,7 @@
   * Until ```day 15``` : 약속한 기간 내에 정해진 분량 풀기
   * From ```day 16``` : 1 Day 1 BOJ 챌린지
   * From ```day 29``` : 원하는 문제 한문제씩 풀기
-    * 안도현 : 그리디 - 탐색 - DFS/BFS - DP 순으로 반복 예정
+    * 안도현 : 그리디 - 정렬 - DFS/BFS - 탐색 - DP 순으로 반복 예정
   * Now we're on https://code.plus/course/42
 
   
