@@ -1,9 +1,6 @@
 import sys
 import collections 
 
-
-count = 0
-
 def bfs():
     q = collections.deque()
     q.append(N)
@@ -19,5 +16,5 @@ def bfs():
 
 N, K = map(int, sys.stdin.readline().split())
 MAX = 10 ** 5
-dist = [0] * (MAX + 1)
+dist = [0] * (MAX + 1) # depth 대신 깊이를 입력할 리스트
 bfs()
