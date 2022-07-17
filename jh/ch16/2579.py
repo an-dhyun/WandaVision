@@ -1,6 +1,6 @@
 n = int(input())
-dp = [0] * n
-A = [0] * n
+dp = [0] * 300
+A = [0] * 300
 for i in range(n):
     A[i] = int(input())
 
