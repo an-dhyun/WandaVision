@@ -6,7 +6,7 @@ dp = [0] * N # sum
 
 for i in range(1, N):
     for j in range(i):
-        if A[i] > A[j] and dpi[i] < dpi[j]:
+        if A[i] > A[j]:
             dpi[i] = max(dpi[j]+1, dpi[i])
 
 for i in range(N-2, -1, -1):
