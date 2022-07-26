@@ -11,7 +11,7 @@
   * From ```day 16``` : 1 Day 1 BOJ 챌린지
   * From ```day 29``` : 원하는 문제 한문제씩 풀기
     * 안도현 : 그리디 - 정렬 - DFS/BFS - 탐색 - DP 순으로 반복 예정
-    * 박지현 : [동적 계획법 1](https://www.acmicpc.net/step/16)
+    * 박지현 : [동적 계획법 1](https://www.acmicpc.net/step/16) - [그리디 알고리즘](https://www.acmicpc.net/step/33)
   * Now we're on https://code.plus/course/42
 
   
