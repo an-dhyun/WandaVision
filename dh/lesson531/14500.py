@@ -19,13 +19,16 @@ def dfs(plc, chk):
     for i in range(0, 4):
         nx = plc[0]+dx[i]
         ny = plc[1]+dy[i]
-        if (0<=nx<N and 0<=ny<M) and (visited[nx][ny]==False):
-            visited[nx][ny]=True
-            s.append(nums[nx][ny])
-            dfs([nx, ny], chk+1)
-            visited[nx][ny]=False
-            s.pop()
-            
+        if (0<=nx<N and 0<=ny<M):
+            if visited[nx][ny]==False: 
+                visited[nx][ny]=True
+                s.append(nums[nx][ny])
+                dfs([nx, ny], chk+1)
+                visited[nx][ny]=False
+                s.pop()
+            else:
+                dfs([nx, ny], chk)
+
 for i in range(N):
     for j in range(M):
         dfs([i, j], 0)
