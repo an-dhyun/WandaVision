@@ -12,7 +12,7 @@
   * From ```day 29``` : 원하는 문제 한문제씩 풀기
     * 안도현 : 그리디 - 정렬 - DFS/BFS - 탐색 - DP 순으로 반복 예정
     * 박지현 : [동적 계획법 1](https://www.acmicpc.net/step/16) - [그리디 알고리즘](https://www.acmicpc.net/step/33) - [그리디 알고리즘](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15&algo=33&algo_if=and)
-  * Now we're on https://code.plus/course/42
+  * Now we're on https://code.plus/course/42 - [시뮬레이션](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15&algo=141&algo_if=and)
 
   
 ## 📑 References
